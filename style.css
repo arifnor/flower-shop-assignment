@@ -267,6 +267,9 @@ u {
 
 }
 .bd {
+    display: block;
+    display: flex;
+    align-items: center;
     padding: 30px;
     gap: 24px;
 }
