@@ -235,9 +235,38 @@ u {
 .text-primery {
     color: #E55473;
 }
+
 /* insta card style */
-.insta-content h1{
-    justify-content: center;
-    text-align: center; 
-    width: 180px;
-    height: 48px;}
+.insta-title {
+    color: #272727;
+    text-align: center;
+    font-size: 40px;
+    font-weight: 800;
+    padding: 30px 150px;
+}
+
+.insta-description {
+    color: rgba(39, 39, 39, 0.60);
+    text-align: center;
+    font-family: Lato;
+    font-size: 18px;
+    font-weight: 100%;
+    line-height: 30px;
+}
+
+.insta-container {
+    display: flex;
+    align-items: center;
+    width: 594px;
+    border-radius: 20%;
+    gap: 6%;
+    margin-left: 10%;
+    margin-bottom: 0px;
+
+}
+
+.bd {
+    padding: 30px;
+    gap: 24px;
+
+}
