@@ -108,6 +108,9 @@ body {
     justify-content: center;
     align-items: center;
     padding: 3%;
+    background: cover, no-repeat;
+    border-top-width: 2%
+    ;
     border-radius: 300px 300px 0px 0px;
 }
 
