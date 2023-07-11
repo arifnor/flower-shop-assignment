@@ -60,14 +60,14 @@ body {
 }
 
 .card-description {
-    
-        color: #272727;
-        text-align: center;
-        font-family: Lato;
-        font-size: 24px;
-        font-weight: 700;
-        line-height: 35px;
-        text-decoration-line: underline;
+
+    color: #272727;
+    text-align: center;
+    font-family: Lato;
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 35px;
+    text-decoration-line: underline;
 }
 
 .featured-content h1 {
@@ -153,12 +153,36 @@ body {
     height: 471px;
     flex-shrink: 0;
 }
-/* support section */
 
-.support-container{
+/* support section */
+.support {
     padding: 130px;
     border-radius: 8px;
-    background: border-radius: 8px;
-    background: rgba(39, 39, 39, 0.05);
+    border-radius: 8px;
+    background: rgb(244, 244, 244);
+    margin: 130px 0;
+}
+
+.support-container {
     display: flex;
+    justify-content: space-around;
+    width: 1440px;
+    height: 320px;
+    flex-shrink: 0;
+}
+
+.support-title {
+    color: rgba(39, 39, 39, 0.80);
+    text-align: center;
+    font-family: Lato;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 35px;
+}
+
+.support-img {
+    width: 88px;
+    height: 88px;
+    flex-shrink: 0;
 }
