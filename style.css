@@ -247,6 +247,8 @@ u {
 
 .insta-description {
     color: rgba(39, 39, 39, 0.60);
+    display: flex;
+    justify-content: center;
     text-align: center;
     font-family: Lato;
     font-size: 18px;
@@ -264,9 +266,7 @@ u {
     margin-bottom: 0px;
 
 }
-
 .bd {
     padding: 30px;
     gap: 24px;
-
 }
