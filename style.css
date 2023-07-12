@@ -325,9 +325,9 @@ u {
     background-image: url(image/background.png);
     display: flex;
     justify-content: center;
-    width: 1440px;
+    width: 1442px;
     height: 449px;
-    margin-left: 12%;
+    margin-left: 14%;
     margin-top: 5%;
 }
 
@@ -356,6 +356,7 @@ u {
     background: #FFF;
     width: 300px;
     height: 64px;
+    padding-inline: 10%;
     justify-content: space-around;
     border: none;
 }
