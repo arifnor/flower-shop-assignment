@@ -360,3 +360,11 @@ u {
     border: none;
 }
 /* deals was done */
+
+.footer{
+    display: flex;
+    text-align: center;
+    margin-bottom: auto;
+
+
+}
